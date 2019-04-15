@@ -1,0 +1,114 @@
+{
+  "total" : 10,
+  "items" : [ {
+    "uid" : "734c9eba5d0b74f12b116f69a0f9019c",
+    "name" : "element methods",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "5f3a1941803c3cb2eb8ee9867d5f66dd",
+    "name" : "by methods",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "3500aaae828f9a536014be1dbf1fb7fe",
+    "name" : "adding a new contact with only a name",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "c3f26a09d1034ab1a39f056cc4623492",
+    "name" : "the contact list",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "e9bd3e86cc00961b756d7dbe52757b2c",
+    "name" : "contact list add a new contact",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "b467852a43332d3dfb0adfa16ec4873a",
+    "name" : "contact list read contact list",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "332bdc8310382bb36bf06a46285db817",
+    "name" : "adding a new contact with name, email, and phone number",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "0cebcbbb0ca759f37228e2aec04287d8",
+    "name" : "adding a new contact with an invalid email",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "e624f349aae6a871799deb779637ccb2",
+    "name" : "adding a new contact with an invalid phone number",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "d740fc2c14c3902d8b871bde33ed5d62",
+    "name" : "our first Protractor test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

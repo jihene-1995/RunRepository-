@@ -1,0 +1,361 @@
+[ {
+  "uid" : "f22464185ad818fc",
+  "name" : "with reduce: get a list of contact names",
+  "time" : {
+    "start" : 1553093819784,
+    "stop" : 1553093820218,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff8fb0ae56f58e9f",
+  "name" : "should find the add contact button",
+  "time" : {
+    "start" : 1553093809154,
+    "stop" : 1553093810491,
+    "duration" : 1337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d97986892c4783a8",
+  "name" : "should not create a new contact with @baduser.com",
+  "time" : {
+    "start" : 1553093825683,
+    "stop" : 1553093828212,
+    "duration" : 2529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eca4adbc9160c45c",
+  "name" : "should fill out form for a new contact",
+  "time" : {
+    "start" : 1553093837987,
+    "stop" : 1553093838861,
+    "duration" : 874
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b751af6ace7def55",
+  "name" : "should send a phone number",
+  "time" : {
+    "start" : 1553093815916,
+    "stop" : 1553093816380,
+    "duration" : 464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b3e73ced3676953",
+  "name" : "should send an email address",
+  "time" : {
+    "start" : 1553093815527,
+    "stop" : 1553093815916,
+    "duration" : 389
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a28b8094880df48c",
+  "name" : "by.tagName",
+  "time" : {
+    "start" : 1553093851706,
+    "stop" : 1553093853905,
+    "duration" : 2199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d469e0012dd8dfb4",
+  "name" : "should find the new contact",
+  "time" : {
+    "start" : 1553093840272,
+    "stop" : 1553093841414,
+    "duration" : 1142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50cb5500c855a889",
+  "name" : "by.css",
+  "time" : {
+    "start" : 1553093842751,
+    "stop" : 1553093844925,
+    "duration" : 2174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f331f0cbc62405ad",
+  "name" : "by.id",
+  "time" : {
+    "start" : 1553093844925,
+    "stop" : 1553093847083,
+    "duration" : 2158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6db7b7cfaa3d7484",
+  "name" : "should click the create button",
+  "time" : {
+    "start" : 1553093810916,
+    "stop" : 1553093812354,
+    "duration" : 1438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c23181ba4b51ae9c",
+  "name" : "getAttribute",
+  "time" : {
+    "start" : 1553093871505,
+    "stop" : 1553093873853,
+    "duration" : 2348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c18fb7bae5b02fb",
+  "name" : "Protractor by or By is different than a Webdriver By",
+  "time" : {
+    "start" : 1553093856137,
+    "stop" : 1553093858721,
+    "duration" : 2584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d82839854fd7ada0",
+  "name" : "getWebElement",
+  "time" : {
+    "start" : 1553093862354,
+    "stop" : 1553093864537,
+    "duration" : 2183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "583a346ab6df7fd6",
+  "name" : "by.linkText or by.partialLinkText",
+  "time" : {
+    "start" : 1553093849428,
+    "stop" : 1553093851706,
+    "duration" : 2278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d08c165b124a938",
+  "name" : "by.xpath",
+  "time" : {
+    "start" : 1553093853905,
+    "stop" : 1553093856137,
+    "duration" : 2232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f26d1ccaefbec5eb",
+  "name" : "getCssValue",
+  "time" : {
+    "start" : 1553093869323,
+    "stop" : 1553093871505,
+    "duration" : 2182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e209e572bff401fa",
+  "name" : "isDisplayed",
+  "time" : {
+    "start" : 1553093882171,
+    "stop" : 1553093884434,
+    "duration" : 2263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b84b21652ac41d3c",
+  "name" : "should write a name",
+  "time" : {
+    "start" : 1553093810492,
+    "stop" : 1553093810915,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b97a08460e68dcd",
+  "name" : "should get the contact names so we can print them to console",
+  "time" : {
+    "start" : 1553093842264,
+    "stop" : 1553093842745,
+    "duration" : 481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0b367fdfd40871e",
+  "name" : "getText",
+  "time" : {
+    "start" : 1553093873853,
+    "stop" : 1553093877478,
+    "duration" : 3625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdf5d2d940b743b8",
+  "name" : "sendKeys",
+  "time" : {
+    "start" : 1553093877478,
+    "stop" : 1553093879753,
+    "duration" : 2275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e181372c16ec963e",
+  "name" : "should not create a new contact with baduser.com",
+  "time" : {
+    "start" : 1553093822404,
+    "stop" : 1553093825683,
+    "duration" : 3279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f7e82d493f9c91a",
+  "name" : "with map: should create a map object",
+  "time" : {
+    "start" : 1553093819005,
+    "stop" : 1553093819784,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da820530c4253483",
+  "name" : "with filter: should find existing contact \"Craig Service\"",
+  "time" : {
+    "start" : 1553093817871,
+    "stop" : 1553093819005,
+    "duration" : 1134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65c72e498a27b294",
+  "name" : "getTagName",
+  "time" : {
+    "start" : 1553093867110,
+    "stop" : 1553093869323,
+    "duration" : 2213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80a25f7218067ad6",
+  "name" : "should click the create button",
+  "time" : {
+    "start" : 1553093838862,
+    "stop" : 1553093840269,
+    "duration" : 1407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17f1281245d33d23",
+  "name" : "should not create a new contact with a formatted telephone number",
+  "time" : {
+    "start" : 1553093828219,
+    "stop" : 1553093831684,
+    "duration" : 3465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fb2b6f234bd0600",
+  "name" : "clear",
+  "time" : {
+    "start" : 1553093879753,
+    "stop" : 1553093882171,
+    "duration" : 2418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ca961af6df5daf8",
+  "name" : "test protractor by and webdriver by",
+  "time" : {
+    "start" : 1553093858726,
+    "stop" : 1553093862354,
+    "duration" : 3628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b51a50c45cac7d",
+  "name" : "should load a page and verify the url",
+  "time" : {
+    "start" : 1553093820222,
+    "stop" : 1553093822401,
+    "duration" : 2179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5b3a23facc47e14",
+  "name" : "should find the contacts and verify each value",
+  "time" : {
+    "start" : 1553093841414,
+    "stop" : 1553093842264,
+    "duration" : 850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8bfa89446e7a471",
+  "name" : "isPresent and isElementPresent",
+  "time" : {
+    "start" : 1553093864538,
+    "stop" : 1553093867110,
+    "duration" : 2572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43df3b3a417c1c45",
+  "name" : "by.buttonText and by.partialButtonText",
+  "time" : {
+    "start" : 1553093847083,
+    "stop" : 1553093849428,
+    "duration" : 2345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b84b92eb32e9f34",
+  "name" : "should click the + button",
+  "time" : {
+    "start" : 1553093836623,
+    "stop" : 1553093837987,
+    "duration" : 1364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf9f807c8aa5834e",
+  "name" : "should not create a new contact with too many numbers in the telephone number",
+  "time" : {
+    "start" : 1553093831684,
+    "stop" : 1553093835107,
+    "duration" : 3423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1553093575135' stop='1553093579232'>
+    <name>adding a new contact with name, email, and phone number</name>
+    <title>adding a new contact with name, email, and phone number</title>
+    <test-cases>
+        <test-case start='1553093578360' status='passed' stop='1553093578766'>
+            <name>should send an email address</name>
+            <title>should send an email address</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7ed52700-1a1d-4393-91b8-db70eaeb36dc-attachment.png' type='image/png' size='23599'/>
+            </attachments>
+        </test-case>
+        <test-case start='1553093578766' status='passed' stop='1553093579230'>
+            <name>should send a phone number</name>
+            <title>should send a phone number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e046d612-4546-4658-bd9d-5de1f7df2e9a-attachment.png' type='image/png' size='24923'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

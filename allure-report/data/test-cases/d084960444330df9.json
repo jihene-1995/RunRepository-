@@ -1,0 +1,59 @@
+{
+  "uid" : "d084960444330df9",
+  "name" : "should not create a new contact with @baduser.com",
+  "fullName" : "adding a new contact with an invalid email.should not create a new contact with @baduser.com",
+  "historyId" : "5c7298b214ef0748685aef4bc8900f56",
+  "time" : {
+    "start" : 1552993042422,
+    "stop" : 1552993047998,
+    "duration" : 5576
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ac7521bba9b8e97",
+      "name" : "Screenshot",
+      "source" : "3ac7521bba9b8e97.png",
+      "type" : "image/png",
+      "size" : 22687
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with an invalid email"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with an invalid email"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not create a new contact with @baduser.com"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with an invalid email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d084960444330df9.json",
+  "parameterValues" : [ ]
+}

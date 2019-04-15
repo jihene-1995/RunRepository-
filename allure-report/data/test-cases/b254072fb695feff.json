@@ -1,0 +1,59 @@
+{
+  "uid" : "b254072fb695feff",
+  "name" : "with filter: should find existing contact \"Craig Service\"",
+  "fullName" : "the contact list.with filter: should find existing contact \"Craig Service\"",
+  "historyId" : "d18d8deeada0f85cbb3e50768814ed10",
+  "time" : {
+    "start" : 1552993026469,
+    "stop" : 1552993028317,
+    "duration" : 1848
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1d575ff40cad9d45",
+      "name" : "Screenshot",
+      "source" : "1d575ff40cad9d45.png",
+      "type" : "image/png",
+      "size" : 37530
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "the contact list"
+  }, {
+    "name" : "testClass",
+    "value" : "the contact list"
+  }, {
+    "name" : "testMethod",
+    "value" : "with filter: should find existing contact \"Craig Service\""
+  }, {
+    "name" : "package",
+    "value" : "the contact list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b254072fb695feff.json",
+  "parameterValues" : [ ]
+}

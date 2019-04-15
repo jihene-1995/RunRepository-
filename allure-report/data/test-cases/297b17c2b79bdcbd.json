@@ -1,0 +1,59 @@
+{
+  "uid" : "297b17c2b79bdcbd",
+  "name" : "should click the create button",
+  "fullName" : "adding a new contact with only a name.should click the create button",
+  "historyId" : "16fbc17df51df9518f81ead29c9697a8",
+  "time" : {
+    "start" : 1552993014318,
+    "stop" : 1552993016010,
+    "duration" : 1692
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d10c29656eca87c3",
+      "name" : "Screenshot",
+      "source" : "d10c29656eca87c3.png",
+      "type" : "image/png",
+      "size" : 39314
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with only a name"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with only a name"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click the create button"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with only a name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "297b17c2b79bdcbd.json",
+  "parameterValues" : [ ]
+}

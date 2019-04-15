@@ -1,0 +1,59 @@
+{
+  "uid" : "84079e659033e1b5",
+  "name" : "should find the add contact button",
+  "fullName" : "adding a new contact with only a name.should find the add contact button",
+  "historyId" : "57bbc95284703804b802fef5fb20a0f4",
+  "time" : {
+    "start" : 1553093571772,
+    "stop" : 1553093573192,
+    "duration" : 1420
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "835095a9c66a6aa8",
+      "name" : "Screenshot",
+      "source" : "835095a9c66a6aa8.png",
+      "type" : "image/png",
+      "size" : 15111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with only a name"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with only a name"
+  }, {
+    "name" : "testMethod",
+    "value" : "should find the add contact button"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with only a name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "84079e659033e1b5.json",
+  "parameterValues" : [ ]
+}

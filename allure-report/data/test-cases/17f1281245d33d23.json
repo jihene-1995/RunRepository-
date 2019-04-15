@@ -1,0 +1,94 @@
+{
+  "uid" : "17f1281245d33d23",
+  "name" : "should not create a new contact with a formatted telephone number",
+  "fullName" : "adding a new contact with an invalid phone number.should not create a new contact with a formatted telephone number",
+  "historyId" : "fcb4dd9dd6b1b2206b0f99b94ef5893b",
+  "time" : {
+    "start" : 1553093828219,
+    "stop" : 1553093831684,
+    "duration" : 3465
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "912d4c84202661ec",
+      "name" : "Screenshot",
+      "source" : "912d4c84202661ec.png",
+      "type" : "image/png",
+      "size" : 22197
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with an invalid phone number"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with an invalid phone number"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not create a new contact with a formatted telephone number"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with an invalid phone number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "28b836d5eac69a94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553093591398,
+        "stop" : 1553093594861,
+        "duration" : 3463
+      }
+    }, {
+      "uid" : "16556935034d07be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552994345825,
+        "stop" : 1552994349572,
+        "duration" : 3747
+      }
+    }, {
+      "uid" : "9a6644f8534aa01e",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait timed out after 5022ms",
+      "time" : {
+        "start" : 1552993048012,
+        "stop" : 1552993097646,
+        "duration" : 49634
+      }
+    }, {
+      "uid" : "e1393d50ced3bd9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552988982430,
+        "stop" : 1552988988844,
+        "duration" : 6414
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17f1281245d33d23.json",
+  "parameterValues" : [ ]
+}

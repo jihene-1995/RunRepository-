@@ -1,0 +1,59 @@
+{
+  "uid" : "604c8fbcd52f787a",
+  "name" : "Protractor by or By is different than a Webdriver By",
+  "fullName" : "by methods.Protractor by or By is different than a Webdriver By",
+  "historyId" : "3ff6491d9535d5d12e9acbebacd2e64c",
+  "time" : {
+    "start" : 1553093619053,
+    "stop" : 1553093621609,
+    "duration" : 2556
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "123e8beaeaa4b172",
+      "name" : "Screenshot",
+      "source" : "123e8beaeaa4b172.png",
+      "type" : "image/png",
+      "size" : 22415
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "by methods"
+  }, {
+    "name" : "testClass",
+    "value" : "by methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "Protractor by or By is different than a Webdriver By"
+  }, {
+    "name" : "package",
+    "value" : "by methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "604c8fbcd52f787a.json",
+  "parameterValues" : [ ]
+}

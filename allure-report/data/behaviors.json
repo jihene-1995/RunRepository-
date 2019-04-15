@@ -1,0 +1,437 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "should find the add contact button",
+    "uid" : "ff8fb0ae56f58e9f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093809154,
+      "stop" : 1553093810491,
+      "duration" : 1337
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should write a name",
+    "uid" : "b84b21652ac41d3c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093810492,
+      "stop" : 1553093810915,
+      "duration" : 423
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should click the create button",
+    "uid" : "6db7b7cfaa3d7484",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093810916,
+      "stop" : 1553093812354,
+      "duration" : 1438
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should send an email address",
+    "uid" : "4b3e73ced3676953",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093815527,
+      "stop" : 1553093815916,
+      "duration" : 389
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should send a phone number",
+    "uid" : "b751af6ace7def55",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093815916,
+      "stop" : 1553093816380,
+      "duration" : 464
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "with filter: should find existing contact \"Craig Service\"",
+    "uid" : "da820530c4253483",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093817871,
+      "stop" : 1553093819005,
+      "duration" : 1134
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "with map: should create a map object",
+    "uid" : "7f7e82d493f9c91a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093819005,
+      "stop" : 1553093819784,
+      "duration" : 779
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "with reduce: get a list of contact names",
+    "uid" : "f22464185ad818fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093819784,
+      "stop" : 1553093820218,
+      "duration" : 434
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should load a page and verify the url",
+    "uid" : "9b51a50c45cac7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093820222,
+      "stop" : 1553093822401,
+      "duration" : 2179
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should not create a new contact with baduser.com",
+    "uid" : "e181372c16ec963e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093822404,
+      "stop" : 1553093825683,
+      "duration" : 3279
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should not create a new contact with @baduser.com",
+    "uid" : "d97986892c4783a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093825683,
+      "stop" : 1553093828212,
+      "duration" : 2529
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should not create a new contact with a formatted telephone number",
+    "uid" : "17f1281245d33d23",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093828219,
+      "stop" : 1553093831684,
+      "duration" : 3465
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should not create a new contact with too many numbers in the telephone number",
+    "uid" : "cf9f807c8aa5834e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093831684,
+      "stop" : 1553093835107,
+      "duration" : 3423
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should click the + button",
+    "uid" : "1b84b92eb32e9f34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093836623,
+      "stop" : 1553093837987,
+      "duration" : 1364
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should fill out form for a new contact",
+    "uid" : "eca4adbc9160c45c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093837987,
+      "stop" : 1553093838861,
+      "duration" : 874
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should click the create button",
+    "uid" : "80a25f7218067ad6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093838862,
+      "stop" : 1553093840269,
+      "duration" : 1407
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should find the new contact",
+    "uid" : "d469e0012dd8dfb4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093840272,
+      "stop" : 1553093841414,
+      "duration" : 1142
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should find the contacts and verify each value",
+    "uid" : "a5b3a23facc47e14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093841414,
+      "stop" : 1553093842264,
+      "duration" : 850
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should get the contact names so we can print them to console",
+    "uid" : "3b97a08460e68dcd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093842264,
+      "stop" : 1553093842745,
+      "duration" : 481
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "by.css",
+    "uid" : "50cb5500c855a889",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093842751,
+      "stop" : 1553093844925,
+      "duration" : 2174
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "by.id",
+    "uid" : "f331f0cbc62405ad",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093844925,
+      "stop" : 1553093847083,
+      "duration" : 2158
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "by.buttonText and by.partialButtonText",
+    "uid" : "43df3b3a417c1c45",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093847083,
+      "stop" : 1553093849428,
+      "duration" : 2345
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "by.linkText or by.partialLinkText",
+    "uid" : "583a346ab6df7fd6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093849428,
+      "stop" : 1553093851706,
+      "duration" : 2278
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "by.tagName",
+    "uid" : "a28b8094880df48c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093851706,
+      "stop" : 1553093853905,
+      "duration" : 2199
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "by.xpath",
+    "uid" : "7d08c165b124a938",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093853905,
+      "stop" : 1553093856137,
+      "duration" : 2232
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Protractor by or By is different than a Webdriver By",
+    "uid" : "9c18fb7bae5b02fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093856137,
+      "stop" : 1553093858721,
+      "duration" : 2584
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test protractor by and webdriver by",
+    "uid" : "9ca961af6df5daf8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093858726,
+      "stop" : 1553093862354,
+      "duration" : 3628
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "getWebElement",
+    "uid" : "d82839854fd7ada0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093862354,
+      "stop" : 1553093864537,
+      "duration" : 2183
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "isPresent and isElementPresent",
+    "uid" : "b8bfa89446e7a471",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093864538,
+      "stop" : 1553093867110,
+      "duration" : 2572
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "getTagName",
+    "uid" : "65c72e498a27b294",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093867110,
+      "stop" : 1553093869323,
+      "duration" : 2213
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "getCssValue",
+    "uid" : "f26d1ccaefbec5eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093869323,
+      "stop" : 1553093871505,
+      "duration" : 2182
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "getAttribute",
+    "uid" : "c23181ba4b51ae9c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093871505,
+      "stop" : 1553093873853,
+      "duration" : 2348
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "getText",
+    "uid" : "f0b367fdfd40871e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093873853,
+      "stop" : 1553093877478,
+      "duration" : 3625
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "sendKeys",
+    "uid" : "cdf5d2d940b743b8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093877478,
+      "stop" : 1553093879753,
+      "duration" : 2275
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "clear",
+    "uid" : "8fb2b6f234bd0600",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093879753,
+      "stop" : 1553093882171,
+      "duration" : 2418
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "isDisplayed",
+    "uid" : "e209e572bff401fa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1553093882171,
+      "stop" : 1553093884434,
+      "duration" : 2263
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

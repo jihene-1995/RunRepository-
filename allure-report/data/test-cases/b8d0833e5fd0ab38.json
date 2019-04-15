@@ -1,0 +1,59 @@
+{
+  "uid" : "b8d0833e5fd0ab38",
+  "name" : "test protractor by and webdriver by",
+  "fullName" : "element methods.test protractor by and webdriver by",
+  "historyId" : "83ad06b517b6fc8eed794e9ff6328dfc",
+  "time" : {
+    "start" : 1552994377306,
+    "stop" : 1552994381011,
+    "duration" : 3705
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1e7048cb168b23d9",
+      "name" : "Screenshot",
+      "source" : "1e7048cb168b23d9.png",
+      "type" : "image/png",
+      "size" : 15111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "element methods"
+  }, {
+    "name" : "testClass",
+    "value" : "element methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "test protractor by and webdriver by"
+  }, {
+    "name" : "package",
+    "value" : "element methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8d0833e5fd0ab38.json",
+  "parameterValues" : [ ]
+}

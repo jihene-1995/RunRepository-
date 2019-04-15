@@ -1,0 +1,59 @@
+{
+  "uid" : "f5813e21cbf27ff",
+  "name" : "should find the contacts and verify each value",
+  "fullName" : "contact list read contact list.should find the contacts and verify each value",
+  "historyId" : "7ce312fac07a1a322a90aa23fc71dd86",
+  "time" : {
+    "start" : 1553093604480,
+    "stop" : 1553093605314,
+    "duration" : 834
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2566ea8bb5fe326d",
+      "name" : "Screenshot",
+      "source" : "2566ea8bb5fe326d.png",
+      "type" : "image/png",
+      "size" : 42822
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "contact list read contact list"
+  }, {
+    "name" : "testClass",
+    "value" : "contact list read contact list"
+  }, {
+    "name" : "testMethod",
+    "value" : "should find the contacts and verify each value"
+  }, {
+    "name" : "package",
+    "value" : "contact list read contact list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5813e21cbf27ff.json",
+  "parameterValues" : [ ]
+}

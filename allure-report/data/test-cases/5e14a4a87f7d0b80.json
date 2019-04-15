@@ -1,0 +1,59 @@
+{
+  "uid" : "5e14a4a87f7d0b80",
+  "name" : "getWebElement",
+  "fullName" : "element methods.getWebElement",
+  "historyId" : "70facef53ee2da0c015c750621006833",
+  "time" : {
+    "start" : 1552989027304,
+    "stop" : 1552989029354,
+    "duration" : 2050
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "441d22158347bd",
+      "name" : "Screenshot",
+      "source" : "441d22158347bd.png",
+      "type" : "image/png",
+      "size" : 15111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "element methods"
+  }, {
+    "name" : "testClass",
+    "value" : "element methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "getWebElement"
+  }, {
+    "name" : "package",
+    "value" : "element methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e14a4a87f7d0b80.json",
+  "parameterValues" : [ ]
+}

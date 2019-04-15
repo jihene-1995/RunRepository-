@@ -1,0 +1,93 @@
+{
+  "uid" : "4b3e73ced3676953",
+  "name" : "should send an email address",
+  "fullName" : "adding a new contact with name, email, and phone number.should send an email address",
+  "historyId" : "221ecbf52f4622825c2f1104f5ff1819",
+  "time" : {
+    "start" : 1553093815527,
+    "stop" : 1553093815916,
+    "duration" : 389
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d43591d1f1a0befe",
+      "name" : "Screenshot",
+      "source" : "d43591d1f1a0befe.png",
+      "type" : "image/png",
+      "size" : 23599
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with name, email, and phone number"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with name, email, and phone number"
+  }, {
+    "name" : "testMethod",
+    "value" : "should send an email address"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with name, email, and phone number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4b907d8404b990b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553093578360,
+        "stop" : 1553093578766,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "c6a4e2131466820c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552994332584,
+        "stop" : 1552994332985,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "b0199d48de2f4bb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552993021220,
+        "stop" : 1552993021949,
+        "duration" : 729
+      }
+    }, {
+      "uid" : "8068c241c84ce7c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552988958358,
+        "stop" : 1552988959295,
+        "duration" : 937
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b3e73ced3676953.json",
+  "parameterValues" : [ ]
+}

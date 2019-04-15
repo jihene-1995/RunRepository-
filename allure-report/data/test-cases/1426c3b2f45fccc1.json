@@ -1,0 +1,59 @@
+{
+  "uid" : "1426c3b2f45fccc1",
+  "name" : "should click the + button",
+  "fullName" : "contact list add a new contact.should click the + button",
+  "historyId" : "1f52cb01ad4e03d93b277c3a61af353c",
+  "time" : {
+    "start" : 1553093599871,
+    "stop" : 1553093601122,
+    "duration" : 1251
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85ca1386bb22c8e0",
+      "name" : "Screenshot",
+      "source" : "85ca1386bb22c8e0.png",
+      "type" : "image/png",
+      "size" : 15111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "testClass",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click the + button"
+  }, {
+    "name" : "package",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1426c3b2f45fccc1.json",
+  "parameterValues" : [ ]
+}

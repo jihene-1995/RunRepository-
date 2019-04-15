@@ -1,0 +1,59 @@
+{
+  "uid" : "e1cadc289cb88ef3",
+  "name" : "should not create a new contact with baduser.com",
+  "fullName" : "adding a new contact with an invalid email.should not create a new contact with baduser.com",
+  "historyId" : "2e4a0a01bc15152d1bd48a27e58e2c1c",
+  "time" : {
+    "start" : 1553093585303,
+    "stop" : 1553093588829,
+    "duration" : 3526
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa5895110cee17e1",
+      "name" : "Screenshot",
+      "source" : "aa5895110cee17e1.png",
+      "type" : "image/png",
+      "size" : 22222
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with an invalid email"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with an invalid email"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not create a new contact with baduser.com"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with an invalid email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1cadc289cb88ef3.json",
+  "parameterValues" : [ ]
+}

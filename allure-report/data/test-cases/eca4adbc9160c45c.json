@@ -1,0 +1,94 @@
+{
+  "uid" : "eca4adbc9160c45c",
+  "name" : "should fill out form for a new contact",
+  "fullName" : "contact list add a new contact.should fill out form for a new contact",
+  "historyId" : "1011046a44e59f400b5b136484479290",
+  "time" : {
+    "start" : 1553093837987,
+    "stop" : 1553093838861,
+    "duration" : 874
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ed71e8880ffbc2a",
+      "name" : "Screenshot",
+      "source" : "6ed71e8880ffbc2a.png",
+      "type" : "image/png",
+      "size" : 23535
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "testClass",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "testMethod",
+    "value" : "should fill out form for a new contact"
+  }, {
+    "name" : "package",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a90b113d7b1021e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553093601122,
+        "stop" : 1553093601951,
+        "duration" : 829
+      }
+    }, {
+      "uid" : "6487642e04ff3859",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552994355994,
+        "stop" : 1552994356929,
+        "duration" : 935
+      }
+    }, {
+      "uid" : "64722a1ad08c2693",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1552993289599,
+        "stop" : 1552993350233,
+        "duration" : 60634
+      }
+    }, {
+      "uid" : "ed7517936dad98f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552989000677,
+        "stop" : 1552989002109,
+        "duration" : 1432
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eca4adbc9160c45c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1552994345825' stop='1552994353104'>
+    <name>adding a new contact with an invalid phone number</name>
+    <title>adding a new contact with an invalid phone number</title>
+    <test-cases>
+        <test-case start='1552994345825' status='passed' stop='1552994349572'>
+            <name>should not create a new contact with a formatted telephone number</name>
+            <title>should not create a new contact with a formatted telephone number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c615ad64-ab63-4a71-acc6-40012b35eb5d-attachment.png' type='image/png' size='22200'/>
+            </attachments>
+        </test-case>
+        <test-case start='1552994349572' status='passed' stop='1552994353102'>
+            <name>should not create a new contact with too many numbers in the telephone number</name>
+            <title>should not create a new contact with too many numbers in the telephone number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='de71912e-956e-47bb-b29a-c187e991b9e8-attachment.png' type='image/png' size='22167'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

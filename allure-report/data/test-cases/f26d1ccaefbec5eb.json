@@ -1,0 +1,94 @@
+{
+  "uid" : "f26d1ccaefbec5eb",
+  "name" : "getCssValue",
+  "fullName" : "element methods.getCssValue",
+  "historyId" : "d79c132127c864f5ca29c408f80350d5",
+  "time" : {
+    "start" : 1553093869323,
+    "stop" : 1553093871505,
+    "duration" : 2182
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4943b6e30a4d7d64",
+      "name" : "Screenshot",
+      "source" : "4943b6e30a4d7d64.png",
+      "type" : "image/png",
+      "size" : 15111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "element methods"
+  }, {
+    "name" : "testClass",
+    "value" : "element methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "getCssValue"
+  }, {
+    "name" : "package",
+    "value" : "element methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8ad19daa21a1b4fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553093632236,
+        "stop" : 1553093634386,
+        "duration" : 2150
+      }
+    }, {
+      "uid" : "c7c82dcd9e38bd4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552994388149,
+        "stop" : 1552994390332,
+        "duration" : 2183
+      }
+    }, {
+      "uid" : "9d6090407bb53f34",
+      "status" : "failed",
+      "statusDetails" : "Failed: timeout: Timed out receiving message from renderer: 10,000\n                  (Session info: chrome=72.0.3626.109)\n                  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-46-generic x86_64)",
+      "time" : {
+        "start" : 1552993505866,
+        "stop" : 1552993508212,
+        "duration" : 2346
+      }
+    }, {
+      "uid" : "f81ab1079abd558f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552989034079,
+        "stop" : 1552989036108,
+        "duration" : 2029
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f26d1ccaefbec5eb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "6487642e04ff3859",
+  "name" : "should fill out form for a new contact",
+  "fullName" : "contact list add a new contact.should fill out form for a new contact",
+  "historyId" : "1011046a44e59f400b5b136484479290",
+  "time" : {
+    "start" : 1552994355994,
+    "stop" : 1552994356929,
+    "duration" : 935
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f790c39a5d98bbd3",
+      "name" : "Screenshot",
+      "source" : "f790c39a5d98bbd3.png",
+      "type" : "image/png",
+      "size" : 23596
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "testClass",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "testMethod",
+    "value" : "should fill out form for a new contact"
+  }, {
+    "name" : "package",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6487642e04ff3859.json",
+  "parameterValues" : [ ]
+}

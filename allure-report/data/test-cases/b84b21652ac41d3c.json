@@ -1,0 +1,101 @@
+{
+  "uid" : "b84b21652ac41d3c",
+  "name" : "should write a name",
+  "fullName" : "adding a new contact with only a name.should write a name",
+  "historyId" : "8d79a04aaedf289e7e37182cfd3510ce",
+  "time" : {
+    "start" : 1553093810492,
+    "stop" : 1553093810915,
+    "duration" : 423
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a6ceb2ee60c22519",
+      "name" : "Screenshot",
+      "source" : "a6ceb2ee60c22519.png",
+      "type" : "image/png",
+      "size" : 20754
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with only a name"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with only a name"
+  }, {
+    "name" : "testMethod",
+    "value" : "should write a name"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with only a name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9ce043713570aeac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553093573193,
+        "stop" : 1553093573679,
+        "duration" : 486
+      }
+    }, {
+      "uid" : "92e91aa1cfc5d000",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552994327249,
+        "stop" : 1552994327869,
+        "duration" : 620
+      }
+    }, {
+      "uid" : "4b65d9333f3b328a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552993013451,
+        "stop" : 1552993014318,
+        "duration" : 867
+      }
+    }, {
+      "uid" : "47f0108fcdd7e5f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552989716936,
+        "stop" : 1552989717714,
+        "duration" : 778
+      }
+    }, {
+      "uid" : "7de93efe1a1e2834",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552988949553,
+        "stop" : 1552988950158,
+        "duration" : 605
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b84b21652ac41d3c.json",
+  "parameterValues" : [ ]
+}

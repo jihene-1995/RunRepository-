@@ -1,0 +1,93 @@
+{
+  "uid" : "d97986892c4783a8",
+  "name" : "should not create a new contact with @baduser.com",
+  "fullName" : "adding a new contact with an invalid email.should not create a new contact with @baduser.com",
+  "historyId" : "5c7298b214ef0748685aef4bc8900f56",
+  "time" : {
+    "start" : 1553093825683,
+    "stop" : 1553093828212,
+    "duration" : 2529
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dc02c093c5f624ab",
+      "name" : "Screenshot",
+      "source" : "dc02c093c5f624ab.png",
+      "type" : "image/png",
+      "size" : 22680
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with an invalid email"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with an invalid email"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not create a new contact with @baduser.com"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with an invalid email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b16097627949b372",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553093588829,
+        "stop" : 1553093591393,
+        "duration" : 2564
+      }
+    }, {
+      "uid" : "37278c733663a900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552994343200,
+        "stop" : 1552994345817,
+        "duration" : 2617
+      }
+    }, {
+      "uid" : "d084960444330df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552993042422,
+        "stop" : 1552993047998,
+        "duration" : 5576
+      }
+    }, {
+      "uid" : "1b40bc9d914d3d57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552988977867,
+        "stop" : 1552988982427,
+        "duration" : 4560
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d97986892c4783a8.json",
+  "parameterValues" : [ ]
+}

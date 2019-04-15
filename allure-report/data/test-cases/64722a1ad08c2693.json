@@ -1,0 +1,45 @@
+{
+  "uid" : "64722a1ad08c2693",
+  "name" : "should fill out form for a new contact",
+  "fullName" : "contact list add a new contact.should fill out form for a new contact",
+  "historyId" : "1011046a44e59f400b5b136484479290",
+  "time" : {
+    "start" : 1552993289599,
+    "stop" : 1552993350233,
+    "duration" : 60634
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+  "statusTrace" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.\n                    at Timeout._onTimeout (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4281:23)\n                    at ontimeout (timers.js:436:11)\n                    at tryOnTimeout (timers.js:300:5)\n                    at listOnTimeout (timers.js:263:5)\n                    at Timer.processTimers (timers.js:223:10)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "testClass",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "testMethod",
+    "value" : "should fill out form for a new contact"
+  }, {
+    "name" : "package",
+    "value" : "contact list add a new contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64722a1ad08c2693.json",
+  "parameterValues" : [ ]
+}

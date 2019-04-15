@@ -1,0 +1,59 @@
+{
+  "uid" : "49089607bab1b7fb",
+  "name" : "by.xpath",
+  "fullName" : "by methods.by.xpath",
+  "historyId" : "21de61b044148c0c5e561273f6c34b32",
+  "time" : {
+    "start" : 1552994372281,
+    "stop" : 1552994374759,
+    "duration" : 2478
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "97473ce9821c4b8d",
+      "name" : "Screenshot",
+      "source" : "97473ce9821c4b8d.png",
+      "type" : "image/png",
+      "size" : 15111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "by methods"
+  }, {
+    "name" : "testClass",
+    "value" : "by methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "by.xpath"
+  }, {
+    "name" : "package",
+    "value" : "by methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49089607bab1b7fb.json",
+  "parameterValues" : [ ]
+}

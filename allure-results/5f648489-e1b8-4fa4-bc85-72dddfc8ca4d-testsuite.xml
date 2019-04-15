@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1552994333476' stop='1552994337457'>
+    <name>the contact list</name>
+    <title>the contact list</title>
+    <test-cases>
+        <test-case start='1552994335166' status='passed' stop='1552994336209'>
+            <name>with filter: should find existing contact "Craig Service"</name>
+            <title>with filter: should find existing contact "Craig Service"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8713355e-ea70-4d33-bb39-f223762bc70b-attachment.png' type='image/png' size='40124'/>
+            </attachments>
+        </test-case>
+        <test-case start='1552994336210' status='passed' stop='1552994337022'>
+            <name>with map: should create a map object</name>
+            <title>with map: should create a map object</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='423234ad-7547-4e21-a101-be6ae606c099-attachment.png' type='image/png' size='40124'/>
+            </attachments>
+        </test-case>
+        <test-case start='1552994337022' status='passed' stop='1552994337456'>
+            <name>with reduce: get a list of contact names</name>
+            <title>with reduce: get a list of contact names</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='80c4f242-a533-4da9-b34c-16ed956795cd-attachment.png' type='image/png' size='40124'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

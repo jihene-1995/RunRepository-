@@ -1,0 +1,59 @@
+{
+  "uid" : "d244a8a5c9fa6050",
+  "name" : "with map: should create a map object",
+  "fullName" : "the contact list.with map: should create a map object",
+  "historyId" : "a2ad52594d907a52d80d1531d2d0f8dc",
+  "time" : {
+    "start" : 1552988964916,
+    "stop" : 1552988965983,
+    "duration" : 1067
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f950a7b0ae655f9c",
+      "name" : "Screenshot",
+      "source" : "f950a7b0ae655f9c.png",
+      "type" : "image/png",
+      "size" : 37530
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "the contact list"
+  }, {
+    "name" : "testClass",
+    "value" : "the contact list"
+  }, {
+    "name" : "testMethod",
+    "value" : "with map: should create a map object"
+  }, {
+    "name" : "package",
+    "value" : "the contact list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d244a8a5c9fa6050.json",
+  "parameterValues" : [ ]
+}

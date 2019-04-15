@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1553093842750' stop='1553093858722'>
+    <name>by methods</name>
+    <title>by methods</title>
+    <test-cases>
+        <test-case start='1553093842751' status='passed' stop='1553093844925'>
+            <name>by.css</name>
+            <title>by.css</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e9360f2b-1efa-4c20-9f53-bdf1f32836b2-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1553093844925' status='passed' stop='1553093847083'>
+            <name>by.id</name>
+            <title>by.id</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='748bbf04-014b-440c-9854-8388a0e7d200-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1553093847083' status='passed' stop='1553093849428'>
+            <name>by.buttonText and by.partialButtonText</name>
+            <title>by.buttonText and by.partialButtonText</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='addff7c7-d026-4127-a8e1-4be40b0ebe2f-attachment.png' type='image/png' size='20755'/>
+            </attachments>
+        </test-case>
+        <test-case start='1553093849428' status='passed' stop='1553093851706'>
+            <name>by.linkText or by.partialLinkText</name>
+            <title>by.linkText or by.partialLinkText</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0f46beca-18d8-4194-9ec2-b9a540da40c5-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1553093851706' status='passed' stop='1553093853905'>
+            <name>by.tagName</name>
+            <title>by.tagName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f578c45c-8780-4725-aeff-66ba21549221-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1553093853905' status='passed' stop='1553093856137'>
+            <name>by.xpath</name>
+            <title>by.xpath</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ddae153b-99c0-4abe-974e-8352429774b5-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1553093856137' status='passed' stop='1553093858721'>
+            <name>Protractor by or By is different than a Webdriver By</name>
+            <title>Protractor by or By is different than a Webdriver By</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='292cef76-d29e-4bdd-83a0-d253d4ca1076-attachment.png' type='image/png' size='22415'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

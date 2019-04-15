@@ -1,0 +1,94 @@
+{
+  "uid" : "50cb5500c855a889",
+  "name" : "by.css",
+  "fullName" : "by methods.by.css",
+  "historyId" : "421e3c218c374bbd8c7400f2c3225586",
+  "time" : {
+    "start" : 1553093842751,
+    "stop" : 1553093844925,
+    "duration" : 2174
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb8f45453570c799",
+      "name" : "Screenshot",
+      "source" : "fb8f45453570c799.png",
+      "type" : "image/png",
+      "size" : 15111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "by methods"
+  }, {
+    "name" : "testClass",
+    "value" : "by methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "by.css"
+  }, {
+    "name" : "package",
+    "value" : "by methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1831f3354ebe71b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553093605789,
+        "stop" : 1553093607960,
+        "duration" : 2171
+      }
+    }, {
+      "uid" : "45ff04e21479848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552994360843,
+        "stop" : 1552994363031,
+        "duration" : 2188
+      }
+    }, {
+      "uid" : "7c6752af8b26c895",
+      "status" : "failed",
+      "statusDetails" : "Failed: timeout: Timed out receiving message from renderer: 10,000\n                  (Session info: chrome=72.0.3626.109)\n                  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-46-generic x86_64)",
+      "time" : {
+        "start" : 1552993477518,
+        "stop" : 1552993479819,
+        "duration" : 2301
+      }
+    }, {
+      "uid" : "6e420e8da3161991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552989006293,
+        "stop" : 1552989009084,
+        "duration" : 2791
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50cb5500c855a889.json",
+  "parameterValues" : [ ]
+}

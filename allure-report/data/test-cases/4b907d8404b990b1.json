@@ -1,0 +1,59 @@
+{
+  "uid" : "4b907d8404b990b1",
+  "name" : "should send an email address",
+  "fullName" : "adding a new contact with name, email, and phone number.should send an email address",
+  "historyId" : "221ecbf52f4622825c2f1104f5ff1819",
+  "time" : {
+    "start" : 1553093578360,
+    "stop" : 1553093578766,
+    "duration" : 406
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aebf0681e0857f49",
+      "name" : "Screenshot",
+      "source" : "aebf0681e0857f49.png",
+      "type" : "image/png",
+      "size" : 23599
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with name, email, and phone number"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with name, email, and phone number"
+  }, {
+    "name" : "testMethod",
+    "value" : "should send an email address"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with name, email, and phone number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b907d8404b990b1.json",
+  "parameterValues" : [ ]
+}

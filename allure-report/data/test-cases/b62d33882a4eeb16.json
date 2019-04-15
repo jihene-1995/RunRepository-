@@ -1,0 +1,59 @@
+{
+  "uid" : "b62d33882a4eeb16",
+  "name" : "should not create a new contact with too many numbers in the telephone number",
+  "fullName" : "adding a new contact with an invalid phone number.should not create a new contact with too many numbers in the telephone number",
+  "historyId" : "6ce3c52afc6cbb9a70cb8bf270fc13d2",
+  "time" : {
+    "start" : 1553093594861,
+    "stop" : 1553093598280,
+    "duration" : 3419
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "460bc84186984f2e",
+      "name" : "Screenshot",
+      "source" : "460bc84186984f2e.png",
+      "type" : "image/png",
+      "size" : 22171
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with an invalid phone number"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with an invalid phone number"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not create a new contact with too many numbers in the telephone number"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with an invalid phone number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b62d33882a4eeb16.json",
+  "parameterValues" : [ ]
+}

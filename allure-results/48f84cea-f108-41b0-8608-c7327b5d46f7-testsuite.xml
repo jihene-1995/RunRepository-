@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1552993007747' stop='1552993016015'>
+    <name>adding a new contact with only a name</name>
+    <title>adding a new contact with only a name</title>
+    <test-cases>
+        <test-case start='1552993011849' status='passed' stop='1552993013449'>
+            <name>should find the add contact button</name>
+            <title>should find the add contact button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a71c5fd0-cec5-4dc5-89be-a2d06807c6ad-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1552993013451' status='passed' stop='1552993014318'>
+            <name>should write a name</name>
+            <title>should write a name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ce037e7e-7039-4ce4-bd42-536bf4830b8b-attachment.png' type='image/png' size='20727'/>
+            </attachments>
+        </test-case>
+        <test-case start='1552993014318' status='passed' stop='1552993016010'>
+            <name>should click the create button</name>
+            <title>should click the create button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6423af6c-3b46-46ed-ab58-20493fe8fceb-attachment.png' type='image/png' size='39314'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

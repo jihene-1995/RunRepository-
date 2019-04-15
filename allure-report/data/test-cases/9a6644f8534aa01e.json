@@ -1,0 +1,45 @@
+{
+  "uid" : "9a6644f8534aa01e",
+  "name" : "should not create a new contact with a formatted telephone number",
+  "fullName" : "adding a new contact with an invalid phone number.should not create a new contact with a formatted telephone number",
+  "historyId" : "fcb4dd9dd6b1b2206b0f99b94ef5893b",
+  "time" : {
+    "start" : 1552993048012,
+    "stop" : 1552993097646,
+    "duration" : 49634
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Wait timed out after 5022ms",
+  "statusTrace" : "TimeoutError: Wait timed out after 5022ms\n                    at /home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:2107:17\n                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n                    at TaskQueue.execute_ (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n                    at TaskQueue.executeNext_ (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n                    at asyncRun (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:2813:27)\n                    at /home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:676:7\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: <anonymous wait>\n                    at scheduleWait (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:2094:20)\n                    at ControlFlow.wait (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:2408:12)\n                    at Driver.wait (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/webdriver.js:943:29)\n                    at run (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/protractor/lib/browser.ts:66:27)\n                    at ProtractorBrowser.to.(anonymous function) [as wait] (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/protractor/lib/browser.ts:74:12)\n                    at UserContext.it (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/e2e/invalid-contact.e2e-spec.ts:51:17)\n                    at /home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:1067:7)\n                    at ControlFlow.promise (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:2396:12)\n                    at schedulerExecute (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasminewd2/index.js:95:18)\n                From: Task: Run it(\"should not create a new contact with a formatted telephone number\") in control flow\n                    at UserContext.<anonymous> (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:2565:10)\n                    at shutdownTask_.MicroTask (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/selenium-webdriver/lib/promise.js:2490:53)\n                From asynchronous test: \n                Error\n                    at Suite.describe (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/e2e/invalid-contact.e2e-spec.ts:40:5)\n                    at addSpecsToSuite (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Suite.describe (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/e2e/invalid-contact.e2e-spec.ts:34:3)\n                    at addSpecsToSuite (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/jihene/Documents/PFE/protractor/testing-angular-applications/chapter08/e2e/invalid-contact.e2e-spec.ts:3:1)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "adding a new contact with an invalid phone number"
+  }, {
+    "name" : "testClass",
+    "value" : "adding a new contact with an invalid phone number"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not create a new contact with a formatted telephone number"
+  }, {
+    "name" : "package",
+    "value" : "adding a new contact with an invalid phone number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a6644f8534aa01e.json",
+  "parameterValues" : [ ]
+}

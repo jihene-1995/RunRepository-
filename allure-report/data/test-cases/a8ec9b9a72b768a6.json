@@ -1,0 +1,59 @@
+{
+  "uid" : "a8ec9b9a72b768a6",
+  "name" : "should get the contact names so we can print them to console",
+  "fullName" : "contact list read contact list.should get the contact names so we can print them to console",
+  "historyId" : "32e611f954fc946705f3ab898821f55f",
+  "time" : {
+    "start" : 1553093605314,
+    "stop" : 1553093605783,
+    "duration" : 469
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "88b05bd805bca591",
+      "name" : "Screenshot",
+      "source" : "88b05bd805bca591.png",
+      "type" : "image/png",
+      "size" : 42822
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "contact list read contact list"
+  }, {
+    "name" : "testClass",
+    "value" : "contact list read contact list"
+  }, {
+    "name" : "testMethod",
+    "value" : "should get the contact names so we can print them to console"
+  }, {
+    "name" : "package",
+    "value" : "contact list read contact list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8ec9b9a72b768a6.json",
+  "parameterValues" : [ ]
+}

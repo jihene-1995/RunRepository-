@@ -1,0 +1,93 @@
+{
+  "uid" : "f22464185ad818fc",
+  "name" : "with reduce: get a list of contact names",
+  "fullName" : "the contact list.with reduce: get a list of contact names",
+  "historyId" : "a70f33a152d812461f9808748c3ae68b",
+  "time" : {
+    "start" : 1553093819784,
+    "stop" : 1553093820218,
+    "duration" : 434
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a08723ed80c1a6",
+      "name" : "Screenshot",
+      "source" : "3a08723ed80c1a6.png",
+      "type" : "image/png",
+      "size" : 37530
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "the contact list"
+  }, {
+    "name" : "testClass",
+    "value" : "the contact list"
+  }, {
+    "name" : "testMethod",
+    "value" : "with reduce: get a list of contact names"
+  }, {
+    "name" : "package",
+    "value" : "the contact list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d5ab4b3b86f239a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553093582665,
+        "stop" : 1553093583119,
+        "duration" : 454
+      }
+    }, {
+      "uid" : "19155587ed2c7288",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552994337022,
+        "stop" : 1552994337456,
+        "duration" : 434
+      }
+    }, {
+      "uid" : "b2cfdf76c308d9d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552993029758,
+        "stop" : 1552993030664,
+        "duration" : 906
+      }
+    }, {
+      "uid" : "875ec66dde56b58e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552988965983,
+        "stop" : 1552988966558,
+        "duration" : 575
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f22464185ad818fc.json",
+  "parameterValues" : [ ]
+}

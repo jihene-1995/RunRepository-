@@ -1,0 +1,59 @@
+{
+  "uid" : "a1185a8f0f069e59",
+  "name" : "should load a page and verify the url",
+  "fullName" : "our first Protractor test.should load a page and verify the url",
+  "historyId" : "a9858b2d1b0bc2e1f18b54c62c739ddd",
+  "time" : {
+    "start" : 1553093583123,
+    "stop" : 1553093585289,
+    "duration" : 2166
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8e088f5b9a98279f",
+      "name" : "Screenshot",
+      "source" : "8e088f5b9a98279f.png",
+      "type" : "image/png",
+      "size" : 38974
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "our first Protractor test"
+  }, {
+    "name" : "testClass",
+    "value" : "our first Protractor test"
+  }, {
+    "name" : "testMethod",
+    "value" : "should load a page and verify the url"
+  }, {
+    "name" : "package",
+    "value" : "our first Protractor test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1185a8f0f069e59.json",
+  "parameterValues" : [ ]
+}

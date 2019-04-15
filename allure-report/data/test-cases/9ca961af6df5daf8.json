@@ -1,0 +1,94 @@
+{
+  "uid" : "9ca961af6df5daf8",
+  "name" : "test protractor by and webdriver by",
+  "fullName" : "element methods.test protractor by and webdriver by",
+  "historyId" : "83ad06b517b6fc8eed794e9ff6328dfc",
+  "time" : {
+    "start" : 1553093858726,
+    "stop" : 1553093862354,
+    "duration" : 3628
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2bf959fc49182e7",
+      "name" : "Screenshot",
+      "source" : "e2bf959fc49182e7.png",
+      "type" : "image/png",
+      "size" : 15111
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "element methods"
+  }, {
+    "name" : "testClass",
+    "value" : "element methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "test protractor by and webdriver by"
+  }, {
+    "name" : "package",
+    "value" : "element methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d211373605835cba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553093621614,
+        "stop" : 1553093625222,
+        "duration" : 3608
+      }
+    }, {
+      "uid" : "b8d0833e5fd0ab38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552994377306,
+        "stop" : 1552994381011,
+        "duration" : 3705
+      }
+    }, {
+      "uid" : "8078d24982c922a1",
+      "status" : "failed",
+      "statusDetails" : "Failed: timeout: Timed out receiving message from renderer: 10,000\n                  (Session info: chrome=72.0.3626.109)\n                  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-46-generic x86_64)",
+      "time" : {
+        "start" : 1552993494680,
+        "stop" : 1552993498485,
+        "duration" : 3805
+      }
+    }, {
+      "uid" : "e48b7df3acf7f33c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552989023796,
+        "stop" : 1552989027304,
+        "duration" : 3508
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ca961af6df5daf8.json",
+  "parameterValues" : [ ]
+}

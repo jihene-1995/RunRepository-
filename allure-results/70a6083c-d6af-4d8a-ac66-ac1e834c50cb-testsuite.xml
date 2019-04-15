@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1553093603356' stop='1553093605784'>
+    <name>contact list read contact list</name>
+    <title>contact list read contact list</title>
+    <test-cases>
+        <test-case start='1553093603356' status='passed' stop='1553093604480'>
+            <name>should find the new contact</name>
+            <title>should find the new contact</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='02968c4d-14d4-40eb-b170-4604eb90d219-attachment.png' type='image/png' size='42822'/>
+            </attachments>
+        </test-case>
+        <test-case start='1553093604480' status='passed' stop='1553093605314'>
+            <name>should find the contacts and verify each value</name>
+            <title>should find the contacts and verify each value</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2ed9ad06-afed-4090-8422-c58c945ee75f-attachment.png' type='image/png' size='42822'/>
+            </attachments>
+        </test-case>
+        <test-case start='1553093605314' status='passed' stop='1553093605783'>
+            <name>should get the contact names so we can print them to console</name>
+            <title>should get the contact names so we can print them to console</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e8e4acb1-b11c-4847-a2f7-8d4acae6d2a7-attachment.png' type='image/png' size='42822'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

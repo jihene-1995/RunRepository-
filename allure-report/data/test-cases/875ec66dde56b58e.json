@@ -1,0 +1,59 @@
+{
+  "uid" : "875ec66dde56b58e",
+  "name" : "with reduce: get a list of contact names",
+  "fullName" : "the contact list.with reduce: get a list of contact names",
+  "historyId" : "a70f33a152d812461f9808748c3ae68b",
+  "time" : {
+    "start" : 1552988965983,
+    "stop" : 1552988966558,
+    "duration" : 575
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce7be1b92dec79b4",
+      "name" : "Screenshot",
+      "source" : "ce7be1b92dec79b4.png",
+      "type" : "image/png",
+      "size" : 37530
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "the contact list"
+  }, {
+    "name" : "testClass",
+    "value" : "the contact list"
+  }, {
+    "name" : "testMethod",
+    "value" : "with reduce: get a list of contact names"
+  }, {
+    "name" : "package",
+    "value" : "the contact list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "875ec66dde56b58e.json",
+  "parameterValues" : [ ]
+}
