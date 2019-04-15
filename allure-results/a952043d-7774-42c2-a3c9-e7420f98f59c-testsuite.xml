@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555325201988' stop='1555325207933'>
+    <name>adding a new contact with an invalid email</name>
+    <title>adding a new contact with an invalid email</title>
+    <test-cases>
+        <test-case start='1555325201988' status='passed' stop='1555325205345'>
+            <name>should not create a new contact with baduser.com</name>
+            <title>should not create a new contact with baduser.com</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ecb96bf9-1708-4fe7-a71c-22e69e1fa809-attachment.png' type='image/png' size='22230'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325205346' status='passed' stop='1555325207932'>
+            <name>should not create a new contact with @baduser.com</name>
+            <title>should not create a new contact with @baduser.com</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1197c008-f347-49b6-a7b6-f4b4a702962b-attachment.png' type='image/png' size='22697'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

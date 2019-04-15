@@ -1,0 +1,146 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555320034213' stop='1555320035045'>
+    <name>contact list read contact list</name>
+    <title>contact list read contact list</title>
+    <test-cases>
+        <test-case start='1555320034213' status='failed' stop='1555320034527'>
+            <name>should find the new contact</name>
+            <title>should find the new contact</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='96abc5f8-8c98-4e79-a6c2-82ff4d8de799-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: Error while waiting for Protractor to sync with the page: "window.angular is undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "window.angular is undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at runWaitForAngularScript.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:652:19)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+                    at ElementArrayFinder.applyAction_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/element.ts:482:23)
+                    at ElementArrayFinder.(anonymous function).args [as getText] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/element.ts:96:21)
+                    at ElementFinder.(anonymous function).args [as getText] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/element.ts:873:14)
+                    at UserContext.it (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:43:38)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+                    at ControlFlow.promise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+                    at schedulerExecute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                From: Task: Run it("should find the new contact") in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:40:5)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:39:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:5:1)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555320034528' status='failed' stop='1555320034777'>
+            <name>should find the contacts and verify each value</name>
+            <title>should find the contacts and verify each value</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='417c57b5-0a03-4c7b-b94e-fe4cdf0c9ecb-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: Error while waiting for Protractor to sync with the page: "window.angular is undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "window.angular is undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at runWaitForAngularScript.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:652:19)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run it("should find the contacts and verify each value") in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:48:5)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:39:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:5:1)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555320034777' status='failed' stop='1555320035044'>
+            <name>should get the contact names so we can print them to console</name>
+            <title>should get the contact names so we can print them to console</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6c635bf8-e3a8-46e0-8482-2ddffe536508-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: Error while waiting for Protractor to sync with the page: "window.angular is undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "window.angular is undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at runWaitForAngularScript.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:652:19)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run it("should get the contact names so we can print them to console") in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:60:5)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:39:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/page-objects.e2e-spec.ts:5:1)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

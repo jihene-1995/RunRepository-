@@ -1,6 +1,5 @@
 // Protractor configuration file, see link for more information
 // https://github.com/angular/protractor/blob/master/lib/config.ts
-var HtmlReporter = require('protractor-beautiful-reporter');
 exports.config = {
   capabilities: {
     browserName: 'chrome',
@@ -9,14 +8,15 @@ exports.config = {
     }
   },
   directConnect: true,
-  
+
+
   framework: 'jasmine2',
   specs: [
     './e2e/**/*.e2e-spec.ts'
   ],
   beforeLaunch: function() {
     require('ts-node').register({
-      project: 'e2e'
+      project: 'e2e/tsconfig.e2e.json'
     });
   },
    onPrepare: function () {
@@ -30,9 +30,6 @@ exports.config = {
         done();
       })
     });
-    jasmine.getEnv().addReporter(new HtmlReporter({
-         baseDirectory: 'tmp/screenshots'
-      }).getJasmine2Reporter());
-  },
   useAllAngular2AppRoots: true
-};
+},
+}

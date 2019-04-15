@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555319806329' stop='1555319808615'>
+    <name>our first Protractor test</name>
+    <title>our first Protractor test</title>
+    <test-cases>
+        <test-case start='1555319806330' status='passed' stop='1555319808613'>
+            <name>should load a page and verify the url</name>
+            <title>should load a page and verify the url</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cab9f3fb-9b8a-4097-824e-634ae4a08046-attachment.png' type='image/png' size='37530'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

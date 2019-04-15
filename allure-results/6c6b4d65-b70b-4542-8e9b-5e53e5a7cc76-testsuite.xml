@@ -1,0 +1,547 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555321847591' stop='1555321853527'>
+    <name>element methods</name>
+    <title>element methods</title>
+    <test-cases>
+        <test-case start='1555321847592' status='failed' stop='1555321850023'>
+            <name>test protractor by and webdriver by</name>
+            <title>test protractor by and webdriver by</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1bfdc904-ccf7-420c-9739-2c1446b799a6-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555321850023' status='failed' stop='1555321850392'>
+            <name>getWebElement</name>
+            <title>getWebElement</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0e1e224d-7a4b-45a9-94ab-71587b731741-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555321850392' status='failed' stop='1555321850791'>
+            <name>isPresent and isElementPresent</name>
+            <title>isPresent and isElementPresent</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='765b33f0-3d47-4973-82f2-19c0f167fd0f-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555321850792' status='failed' stop='1555321851172'>
+            <name>getTagName</name>
+            <title>getTagName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='925512bf-b97f-490b-ae39-cdddacec2f37-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555321851172' status='failed' stop='1555321851540'>
+            <name>getCssValue</name>
+            <title>getCssValue</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='359a4898-0165-4f8b-b8ef-a59c50b833c1-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555321851540' status='failed' stop='1555321851939'>
+            <name>getAttribute</name>
+            <title>getAttribute</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='79562e14-19ac-4f1c-ac6d-d234d98ecd7c-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555321851940' status='failed' stop='1555321852353'>
+            <name>getText</name>
+            <title>getText</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='78b94393-c167-43f3-b853-e7e4b89e4778-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555321852353' status='failed' stop='1555321852753'>
+            <name>sendKeys</name>
+            <title>sendKeys</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0588a256-8ec6-48b7-9649-e89d6017d1a7-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555321852753' status='failed' stop='1555321853140'>
+            <name>clear</name>
+            <title>clear</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='90406e1c-4b72-4ac1-aff2-bd0db3dec83b-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555321853140' status='failed' stop='1555321853525'>
+            <name>isDisplayed</name>
+            <title>isDisplayed</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5a59651a-c679-4b8f-87f4-503bdcf6a491-attachment.png' type='image/png' size='3775'/>
+            </attachments>
+            <failure>
+                <message>Failed: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>InvalidElementStateError: invalid element state: Failed to execute 'replace' on 'Location': '/#/add' is not a valid URL.
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/error.js:505:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/http.js:440:13)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Protractor.get(/#/add) - reset url
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+                    at ProtractorBrowser.executeScriptWithDescription (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:583:24)
+                    at driver.controlFlow.execute.then.then.then (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/lib/browser.ts:888:23)
+                    at ManagedPromise.invokeCallback_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:676:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+                    at shutdownTask_.MicroTask (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+                From asynchronous test: 
+                Error
+                    at Suite.describe (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:5:3)
+                    at addSpecsToSuite (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/tables/element.e2e-spec.ts:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Module.m._compile (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:299:25)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Object.require.extensions.(anonymous function) [as .ts] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/ts-node/src/index.ts:302:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

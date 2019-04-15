@@ -1,0 +1,1 @@
+{"description":"should send an email address|adding a new contact with name, email, and phone number","passed":true,"pending":false,"os":"Linux","instanceId":10644,"browser":{"name":"chrome","version":"72.0.3626.109"},"message":"Passed.","trace":"","browserLogs":[],"screenShotFile":"00e900d6-0075-00fa-00bf-0035009b001e.png","timestamp":1555319801007,"duration":495}

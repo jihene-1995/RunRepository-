@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555327511055' stop='1555327511078'>
+    <name>our first Protractor test</name>
+    <title>our first Protractor test</title>
+    <test-cases>
+        <test-case start='1555327511055' status='failed' stop='1555327511078'>
+            <name>should load a page and verify the url</name>
+            <title>should load a page and verify the url</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: chrome not reachable
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-46-generic x86_64)</message>
+                <stack-trace>WebDriverError: chrome not reachable
+                  (Session info: chrome=72.0.3626.109)
+                  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-46-generic x86_64)
+                    at Object.checkLegacyResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/error.js:546:15)
+                    at parseHttpResponse (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:509:13)
+                    at doSend.then.response (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:441:30)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: WebDriver.takeScreenshot()
+                    at Driver.schedule (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+                    at Driver.takeScreenshot (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1085:17)
+                    at run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/browser.js:59:33)
+                    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/browser.js:67:16)
+                    at Jasmine2Reporter._callee8$ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:4990:48)
+                    at tryCatch (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:5432:40)
+                    at Generator.invoke [as _invoke] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:5706:22)
+                    at Generator.prototype.(anonymous function) [as next] (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:5465:21)
+                    at step (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:4487:191)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:4487:361
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:4720:13)
+                    at dispatch (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4337:11)
+                    at Env.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:975:16)
+                    at Jasmine.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine/lib/jasmine.js:200:12)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:132:15
+                    at Function.promise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:682:9)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:104:14
+                    at _fulfilled (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:4720:13)
+                    at dispatch (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4337:11)
+                    at Env.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:975:16)
+                    at Jasmine.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine/lib/jasmine.js:200:12)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:132:15
+                    at Function.promise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:682:9)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:104:14
+                    at _fulfilled (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:4720:13)
+                    at dispatch (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4337:11)
+                    at Env.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:975:16)
+                    at Jasmine.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine/lib/jasmine.js:200:12)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:132:15
+                    at Function.promise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:682:9)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:104:14
+                    at _fulfilled (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:4720:13)
+                    at dispatch (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4337:11)
+                    at Env.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:975:16)
+                    at Jasmine.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine/lib/jasmine.js:200:12)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:132:15
+                    at Function.promise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:682:9)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:104:14
+                    at _fulfilled (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor-beautiful-reporter/index.js:4720:13)
+                    at dispatch (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4337:11)
+                    at Env.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:975:16)
+                    at Jasmine.execute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasmine/lib/jasmine.js:200:12)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:132:15
+                    at Function.promise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:682:9)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/built/frameworks/jasmine.js:104:14
+                    at _fulfilled (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/q/q.js:834:54)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

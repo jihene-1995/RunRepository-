@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555325238935' stop='1555325265075'>
+    <name>element methods</name>
+    <title>element methods</title>
+    <test-cases>
+        <test-case start='1555325238935' status='passed' stop='1555325242577'>
+            <name>test protractor by and webdriver by</name>
+            <title>test protractor by and webdriver by</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0fa3a788-0a93-4540-9040-d3fa369897f4-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325242577' status='passed' stop='1555325244825'>
+            <name>getWebElement</name>
+            <title>getWebElement</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='734060ee-2307-4196-ad29-30b86cba2774-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325244825' status='passed' stop='1555325247427'>
+            <name>isPresent and isElementPresent</name>
+            <title>isPresent and isElementPresent</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5c626bdf-87bb-4769-81fc-797c1e22f558-attachment.png' type='image/png' size='20910'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325247427' status='passed' stop='1555325249673'>
+            <name>getTagName</name>
+            <title>getTagName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='03f49ba5-f132-415b-9f08-bbdb19e1fdb2-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325249673' status='passed' stop='1555325251893'>
+            <name>getCssValue</name>
+            <title>getCssValue</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6ca2bc9a-47de-42b0-b716-6678de56a13b-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325251893' status='passed' stop='1555325254223'>
+            <name>getAttribute</name>
+            <title>getAttribute</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a3741ef7-97b8-4a38-ba08-87f1e50a7779-attachment.png' type='image/png' size='20930'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325254223' status='passed' stop='1555325257860'>
+            <name>getText</name>
+            <title>getText</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d7cca992-a65f-4916-bd59-dc80f6e31ee1-attachment.png' type='image/png' size='37530'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325257861' status='passed' stop='1555325260228'>
+            <name>sendKeys</name>
+            <title>sendKeys</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bf7ef329-a11f-4e12-9436-7a3689b00068-attachment.png' type='image/png' size='20930'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325260228' status='passed' stop='1555325262640'>
+            <name>clear</name>
+            <title>clear</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='23bbc25e-564c-4fcc-81c1-851b0f29042b-attachment.png' type='image/png' size='20256'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555325262640' status='passed' stop='1555325265074'>
+            <name>isDisplayed</name>
+            <title>isDisplayed</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='51cb94aa-a473-4889-b6a0-fca6c7e852fd-attachment.png' type='image/png' size='14614'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

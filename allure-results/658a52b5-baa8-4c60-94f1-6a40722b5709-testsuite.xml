@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555326914319' stop='1555326920495'>
+    <name>adding a new contact with only a name</name>
+    <title>adding a new contact with only a name</title>
+    <test-cases>
+        <test-case start='1555326917194' status='failed' stop='1555326918604'>
+            <name>should find the add contact button</name>
+            <title>should find the add contact button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a158ada1-0c9d-4c17-866f-723a7ff2e455-attachment.png' type='image/png' size='15111'/>
+            </attachments>
+            <failure>
+                <message>Expected 'https://testing-angular-applications.github.io/#/add' to equal 'https://testing-angular-applications.github.io,/#/add'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.it (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/add-contact.e2e-spec.ts:10:37)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555326918606' status='passed' stop='1555326919069'>
+            <name>should write a name</name>
+            <title>should write a name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4b20e61c-8708-405e-9ba0-52c1ea3630e6-attachment.png' type='image/png' size='20757'/>
+            </attachments>
+        </test-case>
+        <test-case start='1555326919069' status='failed' stop='1555326920493'>
+            <name>should click the create button</name>
+            <title>should click the create button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='74eb35d2-8d55-4158-a214-6e6da45fc99b-attachment.png' type='image/png' size='39566'/>
+            </attachments>
+            <failure>
+                <message>Expected 'https://testing-angular-applications.github.io/#/' to equal 'https://testing-angular-applications.github.io,/#/'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.it (/home/jihene/Documents/GithubPFE/RunRepository-/e2e/add-contact.e2e-spec.ts:20:37)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at asyncRun (/home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)
+                    at /home/jihene/Documents/GithubPFE/RunRepository-/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
