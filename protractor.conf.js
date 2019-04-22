@@ -8,8 +8,7 @@ exports.config = {
     }
   },
   directConnect: true,
-
-
+  baseUrl: 'https://testing-angular-applications.github.io',
   framework: 'jasmine2',
   specs: [
     './e2e/**/*.e2e-spec.ts'
