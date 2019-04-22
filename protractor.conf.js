@@ -8,6 +8,7 @@ exports.config = {
     }
   },
   directConnect: true,
+  
   baseUrl: 'https://testing-angular-applications.github.io',
   framework: 'jasmine2',
   specs: [
